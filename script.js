@@ -20,9 +20,9 @@ let player;
 let showDebug = false;
 
 function preload() {
-  this.load.image("tiles", "https://raw.githubusercontent.com/Calatop/Pokemon/main/32px-pokemoni.png?token=GHSAT0AAAAAABSUKM5KEM6R7HUU4GL3YV6MYR5WFUA");
-  this.load.tilemapTiledJSON("map", "https://raw.githubusercontent.com/Calatop/Pokemon/main/tiled.tmj?token=GHSAT0AAAAAABSUKM5KBJ65Y4RJMZQUZWJ2YR5WHZQ");
-  this.load.atlas("atlas", "https://raw.githubusercontent.com/Calatop/Pokemon/main/killjoy.png?token=GHSAT0AAAAAABSUKM5LAYI5ERYGD6VOUEICYR5WHQA", "https://raw.githubusercontent.com/Calatop/Pokemon/main/killjoy.json?token=GHSAT0AAAAAABSUKM5LXTZ2DZAVNYNVN7QQYR5WHRA");
+  this.load.image("tiles", "32px-pokemoni.png");
+this.load.tilemapTiledJSON("map", "tiled.tmj");
+this.load.atlas("atlas", "killjoy.png", "killjoy.json");
 }
 
 function create() {
