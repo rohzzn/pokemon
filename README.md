@@ -4,6 +4,10 @@
 
 Built using Tiled and JavaScript, this game allows you to explore a vibrant and interactive world filled with detailed maps and smooth gameplay. Experience the charm of the Pokémon universe with updated graphics and the ability to move around and interact with various objects.
 
+<br>
+
+[Live Site](https://rohzzn.github.io/pokemon/)
+ 
 ### Features
 
 - Detailed and intricate maps created using Tiled
